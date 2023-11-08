@@ -1,0 +1,18 @@
+.main-color {
+    background-color: #d229f8 !important;
+}
+
+.help-color {
+    background-color: #03EBD9 !important;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.image{
+    display: none;
+}
+.image.active{
+    display: block;
+}
