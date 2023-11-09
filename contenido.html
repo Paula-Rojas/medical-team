@@ -12,7 +12,7 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/fb18a0ccc0.js" crossorigin="anonymous"></script>
-    <title>Imagen Corporativa</title>
+    <title>Medical Team</title>
 </head>
 
 <body class="bg-dark">
@@ -46,21 +46,21 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-light mx-3" href="contenido.html" role="button"
+                        <a class="nav-link dropdown-toggle text-light mx-3" href="#" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Contenidos
                         </a>
                         <ul class="dropdown-menu">
                             <li><a target="_blank" class="dropdown-item" href="game.html">Solución tecnologica</a></li>
-                            <li><a class="dropdown-item" href="contenido.html">Contenido 1</a></li>
-                            <li><a class="dropdown-item" href="contenido.html">Contenido 2</a></li>
-                            <li><a class="dropdown-item" href="contenido.html">Contenido 3</a></li>
-                            <li><a class="dropdown-item" href="contenido.html">Contenido 4</a></li>
-                            <li><a class="dropdown-item" href="contenido.html">Encuesta</a></li>
+                            <li><a class="dropdown-item" href="#">Contenido 1</a></li>
+                            <li><a class="dropdown-item" href="#">Contenido 2</a></li>
+                            <li><a class="dropdown-item" href="#">Contenido 3</a></li>
+                            <li><a class="dropdown-item" href="#">Contenido 4</a></li>
+                            <li><a class="dropdown-item" href="#">Encuesta</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-light mx-3" href="#" role="button"
+                        <a class="nav-link dropdown-toggle text-light mx-3" href="imagen-corporativa.html" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Imagen Corporativa
                         </a>
@@ -74,15 +74,15 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-light mx-3" href="#" role="button"
+                        <a class="nav-link dropdown-toggle text-light mx-3" href="nosotros.html" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Nosotros
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Misión</a></li>
-                            <li><a class="dropdown-item" href="#">Visión</a></li>
-                            <li><a class="dropdown-item" href="#">Infografias</a></li>
-                            <li><a class="dropdown-item" href="#">Portadas revista</a></li>
+                            <li><a class="dropdown-item" href="nosotros.html">Misión</a></li>
+                            <li><a class="dropdown-item" href="nosotros.html">Visión</a></li>
+                            <li><a class="dropdown-item" href="nosotros.html">Infografias</a></li>
+                            <li><a class="dropdown-item" href="nosotros.html">Portadas revista</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -96,21 +96,37 @@
     <div class="container-fluid w-100 text-center my-2">
         <div class="row">
             <div class="col my-auto">
-                <button type="button" onclick="showImage('mision')"
-                    class="btn btn-primary d-block w-100 my-2 p-3">Misión</button>
-                <button type="button" onclick="showImage('vision')"
-                    class="btn btn-primary d-block w-100 my-2 p-3">Visión</button>
-                <button type="button" onclick="showImage('infografias')"
-                    class="btn btn-primary d-block w-100 my-2 p-3">Infografias</button>
-                <button type="button" onclick="showImage('portadas')"
-                    class="btn btn-primary d-block w-100 my-2 p-3">Portadas de revista</button>
+                <a target="_blank" class="btn btn-primary d-block w-100 my-2 p-3" href="game.html">Solución
+                    tecnologica</a>
+
+                <a target="_blank"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSeAdbrAYej7rcyxmdzM9UxIk4ChK4n61y1BaatcNHJF4PkZ5g/viewform?vc=0&c=0&w=1&flr=0"
+                    class="btn btn-primary d-block w-100 my-2 p-3"> Contenido 1</a>
+                <button type="button" onclick="showImage('contenido_2')"
+                    class="btn btn-primary d-block w-100 my-2 p-3">Contenido 2</button>
+                <button type="button" onclick="showImage('contenido_3')"
+                    class="btn btn-primary d-block w-100 my-2 p-3">Contenido 3</button>
+                <button type="button" onclick="showImage('contenido_4')"
+                    class="btn btn-primary d-block w-100 my-2 p-3">Contenido 4</button>
+                <button type="button" onclick="showImage('contenido_5')"
+                    class="btn btn-primary d-block w-100 my-2 p-3">Contenido 5</button>
             </div>
             <div class="col-8">
-                <img class="image active" id="mision" src="images/Nosotros/Mision.jpg" width="800" height="600">
-                <img class="image" id="vision" src="images/Nosotros/Vision.jpg" width="800" height="600">
-                <img class="image" id="infografias" src="images/Nosotros/Infografia1.jpg" width="800" height="600">
-                <img class="image" id="portadas" src="images/Nosotros/portada1.jpeg" width="800" height="600">
+                <video class="image active" id="contenido_2" width="800" height="600" controls>
+                    <source src="images/Contenidos/contenido_2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <img class="image" id="contenido_3" src="images/Contenidos/contenido_3.png" width="800" height="600">
 
+                <video class="image" id="contenido_4" width="800" height="600" controls>
+                    <source src="images/Contenidos/contenido_4.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
+                <video class="image" id="contenido_5" width="800" height="600" controls>
+                    <source src="images/Contenidos/contenido_5.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
             </div>
         </div>
 
