@@ -9,5 +9,5 @@ function showImages(imageClass){
   const images = document.querySelectorAll('.image');
   images.forEach(image => image.classList.remove('active'));
   const selectedImages = document.querySelectorAll(imageClass);
-  selectedImages.forEach(selectedImg.classList.add('active'));
+  selectedImages.forEach(selectedImg => selectedImg.classList.add('active'));
 }
