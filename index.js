@@ -1,6 +1,13 @@
 function showImage(imageId) {
   const images = document.querySelectorAll('.image');
   images.forEach(image => image.classList.remove('active'));
-  const selectedImages = document.getElementById(imageId);
-  selectedImages.forEach(selectedImage => selectedImage.classList.add('active'));
+  const selectedImage = document.getElementById(imageId);
+  selectedImage.classList.add('active');
+}
+
+function showImages(imageClass){
+  const images = document.querySelectorAll('.image');
+  images.forEach(image => image.classList.remove('active'));
+  const selectedImages = document.querySelectorAll(imageId);
+  selectedImages.forEach(selectedImg.classList.add('active'));
 }
